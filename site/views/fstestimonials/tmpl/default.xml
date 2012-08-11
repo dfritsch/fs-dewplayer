@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<metadata>
+
+	<layout title="fstestimonials Default Layout">
+
+		<message>
+
+			<![CDATA[TESTIMONIALS DEFAULT LAYOUT DESCRIPTION]]>
+
+		</message>
+
+	</layout>
+
+	<state>
+
+		<name>fstestimonials Default Layout</name>
+
+		<description>Fstestimonials DEFAULT LAYOUT DESCRIPTION</description>
+
+        <url>
+
+
+
+        </url>
+
+		<params>
+
+
+
+		</params>
+
+		<advanced>
+
+
+
+		</advanced>
+
+	</state>
+
+</metadata>
