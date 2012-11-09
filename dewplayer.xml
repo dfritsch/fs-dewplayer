@@ -37,8 +37,7 @@
     <filename>index.html</filename>
   </files>
   <languages folder="site">
-    <language tag="en-GB">en-GB.com_dewplayer.ini</language>
-    <language tag="index">index.html</language>
+    <language tag="en-GB">language/en-GB.com_dewplayer.ini</language>
   </languages>
   <administration>
     <menu task="default" img="components/com_dewplayer/assets/images/dewplayer_play.jpg" link="option=com_dewplayer">Dewplayer</menu>
@@ -60,9 +59,8 @@
       <filename>playlist.xml</filename>
 	</files>
     <languages folder="administrator">
-      <language tag="en-GB">en-GB.com_dewplayer.ini</language>
-      <language tag="en-GB">en-GB.com_dewplayer.sys.ini</language>
-      <language tag="index">index.html</language>
+      <language tag="en-GB">language/en-GB.com_dewplayer.ini</language>
+      <language tag="en-GB">language/en-GB.com_dewplayer.sys.ini</language>
     </languages>
   </administration>
   
