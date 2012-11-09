@@ -1,5 +1,5 @@
 
-<extension type="module" version="1.6" method="upgrade">
+<extension type="module" version="1.6" method="upgrade" client="site">
   <name>mod_dewplayer</name>
   <creationDate>Sep 2011</creationDate>
   <author>David Fritsch</author>
