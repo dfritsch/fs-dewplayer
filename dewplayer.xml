@@ -63,7 +63,7 @@
 	</files>
     <languages folder="administrator">
       <language tag="en-GB">en-GB.com_dewplayer.ini</language>
-      <language tag="en-GB">en-GB.com_dewplayer.menu.ini</language>
+      <language tag="en-GB">en-GB.com_dewplayer.sys.ini</language>
       <language tag="index">index.html</language>
     </languages>
   </administration>
