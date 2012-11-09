@@ -9,21 +9,22 @@
  * @license    GNU/GPL
  */
 
+
 // no direct access
+
 defined('_JEXEC') or die('Restricted access');
 
-jimport('joomla.application.component.controller');
+// Require the base controller
 
-/**
- * dewplayer Component Controller
- */
-class DewplayerController extends JController {
-	function display() {
-        // Make sure we have a default view
-        if( !JRequest::getVar( 'view' )) {
-		    JRequest::setVar('view', 'dewplayer' );
-        }
-		parent::display();
-	}
-}
+require_once JPATH_COMPONENT.DS.'controller.php';
+
+// Initialize the controller
+
+$controller = new DewplayerController();
+$controller->execute( null );
+
+// Redirect if set by the controller
+
+$controller->redirect();
+
 ?>

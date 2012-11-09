@@ -10,20 +10,30 @@
  */
 
 // no direct access
+
 defined('_JEXEC') or die('Restricted access');
 
-jimport('joomla.application.component.controller');
+jimport('joomla.application.component.model');
 
 /**
- * dewplayer Component Controller
+ * dewplayer Component dewplayer Model
+ *
+ * @author      notwebdesign
+ * @package		Joomla
+ * @subpackage	dewplayer
+ * @since 1.5
  */
-class DewplayerController extends JController {
-	function display() {
-        // Make sure we have a default view
-        if( !JRequest::getVar( 'view' )) {
-		    JRequest::setVar('view', 'dewplayer' );
-        }
-		parent::display();
-	}
+
+class DewplayerModelDewplayer extends JModel {
+
+    /**
+	 * Constructor
+	 */
+
+	function __construct() {
+		parent::__construct();
+    }
+
 }
+
 ?>

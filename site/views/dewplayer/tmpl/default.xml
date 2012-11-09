@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Dewplayer Default Layout">
+		<message>
+			<![CDATA[Displays Dewplayer Playlist on its own page with all songs added.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Dewplayer Default Layout</name>
+		<description>Displays Dewplayer Playlist on its own page with all songs added.</description>
+        <url>
+
+        </url>
+		<config><fields name="params"><fieldset name="basic">
+			<field type="list" name="player" label="Player Type" default="4" description="The type of player to display for this menu item">
+				<option value='0'>Mini</option>
+				<option value='1'>Classic</option>
+				<option value='2'>Multi</option>
+				<option value='3'>Multi-Rect</option>
+				<option value='4'>Playlist</option>
+				<option value='5'>Bubble</option>
+				<option value='6'>Vinyl</option>
+			</field>
+			<field type="text" name="default_volume" label="Default Volume" default="100" description="Default volume for player with 0 being silent and 100 being maximum" class="" size="" />
+			<field type="radio" name="auto_start" label="Auto Start" default="1" description="True means it plays automatically when the player is loaded" class="" size="">
+				<option value='1'>Yes</option>
+				<option value='0'>No</option>
+			</field>
+			<field type="radio" name="loop_play" label="Loop Playback" default="0" description="True means it plays the same file at the end of playing" class="" size="">
+				<option value='1'>Yes</option>
+				<option value='0'>No</option>
+			</field>
+			<field type="radio" name="random_play" label="Random Play" default="0" description="True means that it randomly plays another song for multiple loaded MP3 players" class="" size="">
+				<option value='1'>Yes</option>
+				<option value='0'>No</option>
+			</field>
+			<field type="radio" name="timer" label="Display Timer" default="1" description="True displays the duration in mm:ss" class="" size="">
+				<option value='1'>Yes</option>
+				<option value='0'>No</option>
+			</field>
+			<field type="radio" name="no_cursor" label="Disable Cursor" default="1" description="True disables the cursor on the seek bar" class="" size="">
+				<option value='1'>Yes</option>
+				<option value='0'>No</option>
+			</field>
+			<field type="text" name="fading" label="Fading" default="2" description="Seconds between one track and the next track" class="" size="" />
+		  </fieldset></fields></config>
+		
+		<params>
+			<param type="list" name="player" label="Player Type" default="4" description="The type of player to display for this menu item">
+				<option value='0'>Mini</option>
+				<option value='1'>Classic</option>
+				<option value='2'>Multi</option>
+				<option value='3'>Multi-Rect</option>
+				<option value='4'>Playlist</option>
+				<option value='5'>Bubble</option>
+				<option value='6'>Vinyl</option>
+			</param>
+			<param type="text" name="default_volume" label="Default Volume" default="100" description="Default volume for player with 0 being silent and 100 being maximum" class="" size="" />
+			<param type="radio" name="auto_start" label="Auto Start" default="1" description="True means it plays automatically when the player is loaded" class="" size="">
+				<option value='1'>Yes</option>
+				<option value='0'>No</option>
+			</param>
+			<param type="radio" name="loop_play" label="Loop Playback" default="0" description="True means it plays the same file at the end of playing" class="" size="">
+				<option value='1'>Yes</option>
+				<option value='0'>No</option>
+			</param>
+			<param type="radio" name="random_play" label="Random Play" default="0" description="True means that it randomly plays another song for multiple loaded MP3 players" class="" size="">
+				<option value='1'>Yes</option>
+				<option value='0'>No</option>
+			</param>
+			<param type="radio" name="timer" label="Display Timer" default="1" description="True displays the duration in mm:ss" class="" size="">
+				<option value='1'>Yes</option>
+				<option value='0'>No</option>
+			</param>
+			<param type="radio" name="no_cursor" label="Disable Cursor" default="1" description="True disables the cursor on the seek bar" class="" size="">
+				<option value='1'>Yes</option>
+				<option value='0'>No</option>
+			</param>
+			<param type="text" name="fading" label="Fading" default="2" description="Seconds between one track and the next track" class="" size="" />
+		  </params>
+		<advanced>
+
+		</advanced>
+	</state>
+</metadata>

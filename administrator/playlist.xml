@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+    <title>Dewplayer Playlist</title>
+    <creator>Dew</creator>
+    <link>http://www.blup.fr/</link>
+    <info>The Best Playlist for Testing</info>
+    <image>http://127.0.0.1/JoomlaDev/administrator/components/com_dewplayer/uploads/ScreenHunter_01_May._27_13.48.jpg</image>
+
+    <trackList>
+			<track>
+			  <location>http://127.0.0.1/JoomlaDev/administrator/components/com_dewplayer/uploads/1000Hz-5sec.mp3</location>
+			  <creator>Bla</creator>
+			  <album>Blah Beats</album>
+			  <title>Test 1</title>
+			  <annotation></annotation>
+			  <duration></duration>
+			  <image></image>
+			  <info></info>
+			  <link></link>
+			</track>
+			
+			<track>
+			  <location>http://127.0.0.1/JoomlaDev/administrator/components/com_dewplayer/uploads/1000Hz-5sec.mp3</location>
+			  <creator>Blah</creator>
+			  <album>Blah Beats</album>
+			  <title>Test 2</title>
+			  <annotation></annotation>
+			  <duration></duration>
+			  <image>http://127.0.0.1/JoomlaDev/administrator/components/com_dewplayer/uploads/ScreenHunter_01_May._27_13.48.jpg</image>
+			  <info></info>
+			  <link></link>
+			</track>
+			    </trackList>
+</playlist>
