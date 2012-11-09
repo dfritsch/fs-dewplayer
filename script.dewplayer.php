@@ -15,7 +15,9 @@ class Com_DewplayerInstallerScript {
 		} else {
 			$sqlfile = $parent->getParent()->getPath('extension_root').DS.'install.sql';
 		}
-		$buffer = file_get_contents($sqlfile);
+		if (file_exists($sql_file)) {
+			$buffer = file_get_contents($sqlfile);
+		}
 		if ($buffer !== false) {
 			jimport('joomla.installer.helper');
 			$queries = JInstallerHelper::splitSql($buffer);
